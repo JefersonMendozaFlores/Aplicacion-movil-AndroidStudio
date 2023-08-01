@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="Datos del Proveedor"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="ID Proveedor"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCrudIdProveedorItem"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Razón Social"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCrudRazonSocialProveedorItem"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="RUC  "
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCrudRucProveedorItem"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Direccion"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCrudProveedorItemDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Celular"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtCrudProveedorItemCel"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

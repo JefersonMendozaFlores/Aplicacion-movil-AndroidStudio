@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.registra.ProveedorRegistraActivity"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:padding="20dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/idTitEditorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_registro_de_proveedor"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_margin="4dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Razón Social" />
+
+    <EditText
+        android:id="@+id/txtRegProveRazonSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+
+
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="R U C"
+
+        />
+
+    <EditText
+        android:id="@+id/txtRegProveRuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:inputType="number"
+        android:maxLength="11"
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Dirección" />
+
+    <EditText
+        android:id="@+id/txtRegProveDirec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Teléfono Fijo" />
+
+    <EditText
+        android:id="@+id/txtRegProveTelf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:inputType="number"
+        android:maxLength="9"
+
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Teléfono Mòvil"
+        />
+
+    <EditText
+        android:id="@+id/txtRegProveCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:inputType="number"
+        android:maxLength="9"
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Nombre del Contacto" />
+
+    <EditText
+        android:id="@+id/txtRegProveContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+         />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Fecha de Registro" />
+
+    <EditText
+        android:id="@+id/txtRegProveFechaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:inputType="date" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Seleccione País" />
+
+    <Spinner
+        android:id="@+id/spnRegProvePais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:minHeight="48dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Tipo de Proveedor" />
+
+    <Spinner
+        android:id="@+id/spnRegProveTipoProve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarProve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="REGISTRAR"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

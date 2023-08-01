@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fondocolorautor"
+    tools:context=".vista.crud.AlumnoCrudFormularioActivity"
+    android:orientation="vertical"
+    android:padding="15sp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="@string/txt_crud_de_autor"
+                android:textAlignment="center"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/build_white_18dp"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Nombres"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/txtNom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtCrudNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Colocar nombres"
+                    android:textAlignment="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Apellidos"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/txtApe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtCrudApellido"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:hint="Colocar apellidos"
+                    android:textAlignment="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Correo electrónico"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/txtCor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtCrudCorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:hint="Colocar correo personal"
+                    android:textAlignment="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Fecha Nacimiento"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/txtFecNac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtCrudFechaNacimiento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:hint="Colocar fecha de nacimiento"
+                    android:textAlignment="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Teléfono celular"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:id="@+id/txtFloorLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/txtCrudTelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:hint="Colocar número de celular"
+                    android:textAlignment="center"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="Grado"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <Spinner
+                android:id="@+id/spnCrudAutorGrado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:text="País"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="@color/white"/>
+
+            <Spinner
+                android:id="@+id/spnCrudAutorPais"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:id="@+id/btnCrudRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnautor"
+                android:layout_marginBottom="16dp"
+                android:text="REGISTRAR"/>
+
+            <Button
+                android:id="@+id/btnCrudRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnautor"
+                android:layout_marginBottom="16dp"
+                android:text="REGRESAR"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

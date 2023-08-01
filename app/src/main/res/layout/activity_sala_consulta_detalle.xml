@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    tools:context=".vista.consulta.SalaConsultaDetalleActivity">
+
+    <TextView
+        android:id="@+id/txtTitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:text="Detalle de Sala"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/btnBack"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtTitleDetail">
+
+        <TextView
+            android:id="@+id/txtNumberDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Número: " />
+
+        <TextView
+            android:id="@+id/txtFloorDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piso: " />
+
+        <TextView
+            android:id="@+id/txtStudentsDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nro. Alumnos: " />
+
+        <TextView
+            android:id="@+id/txtResourcesDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recursos: " />
+
+        <TextView
+            android:id="@+id/txtCreateDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de registro: " />
+
+        <TextView
+            android:id="@+id/txtStatusDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado: " />
+
+        <TextView
+            android:id="@+id/txtModalityDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modalidad: " />
+
+        <TextView
+            android:id="@+id/txtSiteDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sede: " />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Regresar"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

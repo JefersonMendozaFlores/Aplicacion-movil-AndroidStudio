@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:text="Datos de la Revista"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtIdRevista"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Id de Revista"/>
+
+        <TextView
+            android:id="@+id/txtNombreRevista"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Nombre de Revista"/>
+
+        <TextView
+            android:id="@+id/txtFrecuenciaRevista"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Frecuencia de Revista"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

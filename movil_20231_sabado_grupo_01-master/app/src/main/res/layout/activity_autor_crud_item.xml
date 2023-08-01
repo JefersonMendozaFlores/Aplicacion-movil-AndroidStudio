@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="440dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:text="Autor"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Código Autor"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemId"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Nombre del Autor"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemNombre"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Apellido del Autor"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemApellido"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Correo del Autor"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Fecha de Nacimiento"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemFecNac"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Teléfono del Autor"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Fecha Registro"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemFecReg"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Estado"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemEstado"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Grado"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemGrado"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="País"/>
+
+        <TextView
+            android:id="@+id/txtCrudAutorItemPais"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

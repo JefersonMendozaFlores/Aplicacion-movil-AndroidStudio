@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.crud.EditorialCrudFormularioActivity"
+    android:orientation="vertical"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/txt_crud_de_editorial"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:srcCompat="@drawable/editorial"
+                android:layout_gravity="center"
+                />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/lblRazon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:startIconDrawable="@drawable/person_icon"
+            app:errorEnabled="true"
+            android:hint="Razón Social">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtRazonSocial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/lblDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:startIconDrawable="@drawable/home_icon"
+            app:errorEnabled="true"
+            android:hint="Dirección">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/lblRuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:startIconDrawable="@drawable/identity_profile_icon"
+            app:errorEnabled="true"
+            android:hint="RUC">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtRuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/lblFechaCreacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            app:errorEnabled="true"
+            android:hint="Fecha de creación">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fechaCreacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                android:inputType="datetime"/>
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <TextView
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/txtModalityLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="País" />
+            <Spinner
+                android:id="@+id/spnPaises"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+
+
+
+
+            <TextView
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:id="@+id/lblCategoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Categoria" />
+
+            <Spinner
+                android:id="@+id/spnCategorias"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+            <Button
+        android:id="@+id/btnCrudRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                app:icon="@drawable/ic_edit"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+        android:text="Registrar" />
+
+
+    <Button
+        android:id="@+id/btnCrudRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/return_icon"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:text="Regresar" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

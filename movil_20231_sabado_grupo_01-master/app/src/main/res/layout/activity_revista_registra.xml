@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vista.registra.RevistaRegistraActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/idTitlePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="@string/txt_registro_de_revista"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:text="Nombre"
+        android:labelFor="@id/txtNombre"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/lblFrecuencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:text="Frecuencia"
+        android:labelFor="@id/txtFrecuencia"/>
+
+    <EditText
+        android:id="@+id/txtFrecuencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/lblFechaCreacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:text="Fecha de creación"
+        android:labelFor="@id/txtFechaCreacion"/>
+
+    <EditText
+        android:id="@+id/txtFechaCreacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:inputType="textPersonName"/>
+
+    <TextView
+        android:id="@+id/lblModalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:text="Modalidad"
+        android:labelFor="@id/spnModalidad"/>
+
+    <Spinner
+        android:id="@+id/spnModalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/lblPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="4dp"
+        android:text="País"
+        android:labelFor="@id/spnPais"/>
+
+    <Spinner
+        android:id="@+id/spnPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:padding="4dp"
+        android:text="Registrar" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

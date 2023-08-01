@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="520dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textAlignment="center"
+            android:text="Datos del Alumno"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Código Alumno"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemId"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Nombre del Alumno"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemNombre"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Apellido del Alumno"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemApellido"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Teléfono"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="DNI"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemDni"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Correo"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Dirección"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Fecha de nacimiento"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemFecNac"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Fecha de registro"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemFegRe"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Estado"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemEstado"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="País"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemPais"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"
+            android:text="Modalidad"/>
+        <TextView
+            android:id="@+id/txtCrudAlumnoItemModalidad"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textAlignment="center"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>
